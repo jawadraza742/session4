@@ -28,6 +28,88 @@
   color: #61dafb;
 }
 
+.night {
+  background-color: gray;
+  color: white;
+}
+
+
+.c_button {
+  background-color: rgb(58, 192, 58);
+  color:white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  outline: none;
+}
+
+.m_button {
+  background-color: wheat;
+  color:black;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  outline: none;
+}
+
+.c_button:hover {
+  background-color: rgb(127, 209, 127);
+  color: #282c34;
+  cursor: pointer;
+}
+
+.r_button:hover {
+  background-color: rgb(185, 31, 4);
+  color: #282c34;
+  cursor: pointer;
+}
+
+.r_button{
+  background-color: tomato;
+  color:white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  outline: none;
+}
+
+div {
+  text-align: center;
+  margin-top: 100px;
+}
+
+ul > li {
+  text-align: justify;
+  font-size: 14pt;
+}
+
+.i_style{
+  font: 18pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  text-indent: 40px;
+}
+.v_custom {
+  font: 18pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-indent: 40px;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
