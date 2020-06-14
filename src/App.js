@@ -6,7 +6,7 @@ export default function App() {
   let [count, setCount] = useState(0);
   let [mode, setMode] = useState("true");
   return (
-    <div className={` ${mode ? 'night' :'' }`}>
+    <div className={` ${mode ? '' :'night' }`}>
       <h2>Greetings from my side to the awesome person reading this.</h2>
       <h3>This is a tasbhi counter application</h3>
         <br/>
@@ -31,7 +31,7 @@ export default function App() {
             <button className="r_button" onClick ={() => setCount(0)}>Reset</button>
 
            
-        <Mode current_mode={mode ? 'Night' : 'Day'}/>
+        <Mode current_mode={mode ? 'Day' : 'Night'}/>
         <button className="m_button" onClick={() => setMode(!mode)}>Click</button>
         
 
